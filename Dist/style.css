@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navbar {
+  background-color: rgb(231, 179, 255);
+  font-size: 100px;
+}
+
+.navbar-brand {
+  font-size:50px;
+}
+
+.card-header {
+  background-color: rgb(247, 247, 201);
+  border-radius: 3px;
+  box-shadow: 4px 8px;
+  border:3px solid black
+}
+
+.card-body {
+  background-color: rgb(234, 234, 193);
+  border-radius: 3px;
+  box-shadow: 4px 8px;
+  border:3px solid black
+}
+
+.container {
+  margin: 100px auto;
+  justify-content: space-evenly;
+  display: flex;
+}
